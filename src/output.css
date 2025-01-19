@@ -566,8 +566,8 @@ video {
   left: 1.25rem;
 }
 
-.left-\[-100px\] {
-  left: -100px;
+.left-\[-125px\] {
+  left: -125px;
 }
 
 .left-\[-7px\] {
@@ -582,62 +582,48 @@ video {
   top: 7rem;
 }
 
-.left-\[-150px\] {
-  left: -150px;
+.top-20 {
+  top: 5rem;
 }
 
-.left-\[-145px\] {
-  left: -145px;
+.top-40 {
+  top: 10rem;
 }
 
-.left-\[-149px\] {
-  left: -149px;
+.left-\[-105px\] {
+  left: -105px;
 }
 
-.left-\[-1145px\] {
-  left: -1145px;
+.left-\[-155px\] {
+  left: -155px;
 }
 
-.left-\[-110px\] {
-  left: -110px;
+.left-\[-80px\] {
+  left: -80px;
 }
 
-.left-\[-115px\] {
-  left: -115px;
+.left-\[-185px\] {
+  left: -185px;
 }
 
-.left-\[-125px\] {
-  left: -125px;
+.left-\[-195px\] {
+  left: -195px;
 }
 
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
+.top-60 {
+  top: 15rem;
 }
 
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
+.left-\[-175px\] {
+  left: -175px;
 }
 
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
+.left-4 {
+  left: 1rem;
 }
 
-.mx-\[-55px\] {
-  margin-left: -55px;
-  margin-right: -55px;
-}
-
-.mx-\[-75px\] {
-  margin-left: -75px;
-  margin-right: -75px;
-}
-
-.mx-\[40px\] {
-  margin-left: 40px;
-  margin-right: 40px;
+.left-1 {
+  left: 0.25rem;
 }
 
 .mx-auto {
@@ -645,14 +631,59 @@ video {
   margin-right: auto;
 }
 
-.mx-\[-50px\] {
-  margin-left: -50px;
-  margin-right: -50px;
+.mx-\[-20px\] {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.mx-\[-25px\] {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+.mx-\[-18px\] {
+  margin-left: -18px;
+  margin-right: -18px;
+}
+
+.mx-\[-2px\] {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.mx-\[-22px\] {
+  margin-left: -22px;
+  margin-right: -22px;
 }
 
 .mx-\[-30px\] {
   margin-left: -30px;
   margin-right: -30px;
+}
+
+.mx-\[-32px\] {
+  margin-left: -32px;
+  margin-right: -32px;
+}
+
+.mx-\[-33px\] {
+  margin-left: -33px;
+  margin-right: -33px;
+}
+
+.mx-\[-35px\] {
+  margin-left: -35px;
+  margin-right: -35px;
+}
+
+.mx-\[-38px\] {
+  margin-left: -38px;
+  margin-right: -38px;
+}
+
+.mx-\[-42px\] {
+  margin-left: -42px;
+  margin-right: -42px;
 }
 
 .mb-10 {
@@ -669,10 +700,6 @@ video {
 
 .mt-14 {
   margin-top: 3.5rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .mt-5 {
@@ -711,16 +738,8 @@ video {
   width: 250px;
 }
 
-.w-\[40\%\] {
-  width: 40%;
-}
-
 .w-\[80\%\] {
   width: 80%;
-}
-
-.w-\[85\%\] {
-  width: 85%;
 }
 
 .w-\[95\%\] {
@@ -731,20 +750,32 @@ video {
   width: 100%;
 }
 
-.w-\[50\%\] {
-  width: 50%;
+.w-\[450px\] {
+  width: 450px;
+}
+
+.w-\[290px\] {
+  width: 290px;
+}
+
+.w-\[312px\] {
+  width: 312px;
+}
+
+.w-\[322px\] {
+  width: 322px;
+}
+
+.w-\[372px\] {
+  width: 372px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .w-\[340px\] {
   width: 340px;
-}
-
-.w-\[310px\] {
-  width: 310px;
-}
-
-.min-w-\[340px\] {
-  min-width: 340px;
 }
 
 .min-w-full {
@@ -767,10 +798,6 @@ video {
   justify-content: center;
 }
 
-.text-wrap {
-  text-wrap: wrap;
-}
-
 .text-nowrap {
   text-wrap: nowrap;
 }
@@ -783,6 +810,10 @@ video {
   border-radius: 0.125rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -790,6 +821,11 @@ video {
 .border-lime-300 {
   --tw-border-opacity: 1;
   border-color: rgb(190 242 100 / var(--tw-border-opacity, 1));
+}
+
+.border-neutral-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 245 245 / var(--tw-border-opacity, 1));
 }
 
 .bg-white {
@@ -823,6 +859,10 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-12 {
@@ -878,26 +918,6 @@ video {
   text-align: justify;
 }
 
-.text-\[1\.7rem\] {
-  font-size: 1.7rem;
-}
-
-.text-\[2\.4rem\] {
-  font-size: 2.4rem;
-}
-
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
-}
-
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
-.text-\[1\.6rem\] {
-  font-size: 1.6rem;
-}
-
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
 }
@@ -908,6 +928,40 @@ video {
 
 .text-\[1\.8rem\] {
   font-size: 1.8rem;
+}
+
+.text-\[2\.4rem\] {
+  font-size: 2.4rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[2\.1rem\] {
+  font-size: 2.1rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[1\.7rem\] {
+  font-size: 1.7rem;
+}
+
+.text-\[2\.3rem\] {
+  font-size: 2.3rem;
+}
+
+.text-\[1\.9rem\] {
+  font-size: 1.9rem;
 }
 
 .font-bold {
@@ -959,6 +1013,50 @@ video {
 
   .sm\:top-28 {
     top: 7rem;
+  }
+
+  .sm\:top-40 {
+    top: 10rem;
+  }
+
+  .sm\:top-80 {
+    top: 20rem;
+  }
+
+  .sm\:top-60 {
+    top: 15rem;
+  }
+
+  .sm\:left-\[-120px\] {
+    left: -120px;
+  }
+
+  .sm\:left-\[-100px\] {
+    left: -100px;
+  }
+
+  .sm\:left-\[-20px\] {
+    left: -20px;
+  }
+
+  .sm\:left-\[-320px\] {
+    left: -320px;
+  }
+
+  .sm\:left-\[-310px\] {
+    left: -310px;
+  }
+
+  .sm\:left-\[-300px\] {
+    left: -300px;
+  }
+
+  .sm\:left-\[-250px\] {
+    left: -250px;
+  }
+
+  .sm\:m-3 {
+    margin: 0.75rem;
   }
 
   .sm\:mx-24 {
@@ -1046,6 +1144,18 @@ video {
     width: 100%;
   }
 
+  .sm\:w-\[550px\] {
+    width: 550px;
+  }
+
+  .sm\:w-\[560px\] {
+    width: 560px;
+  }
+
+  .sm\:w-\[570px\] {
+    width: 570px;
+  }
+
   .sm\:max-w-full {
     max-width: 100%;
   }
@@ -1074,6 +1184,10 @@ video {
     border-radius: 0.125rem;
   }
 
+  .sm\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+
   .sm\:border {
     border-width: 1px;
   }
@@ -1081,6 +1195,11 @@ video {
   .sm\:border-lime-300 {
     --tw-border-opacity: 1;
     border-color: rgb(190 242 100 / var(--tw-border-opacity, 1));
+  }
+
+  .sm\:border-neutral-100 {
+    --tw-border-opacity: 1;
+    border-color: rgb(245 245 245 / var(--tw-border-opacity, 1));
   }
 
   .sm\:bg-white {
@@ -1094,6 +1213,10 @@ video {
 
   .sm\:p-2 {
     padding: 0.5rem;
+  }
+
+  .sm\:p-5 {
+    padding: 1.25rem;
   }
 
   .sm\:px-32 {
@@ -1129,12 +1252,31 @@ video {
     line-height: 1;
   }
 
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .sm\:font-bold {
     font-weight: 700;
   }
 
   .sm\:font-semibold {
     font-weight: 600;
+  }
+
+  .sm\:font-extrabold {
+    font-weight: 800;
   }
 
   .sm\:text-fuchsia-100 {
